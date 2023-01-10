@@ -1,0 +1,18 @@
+.container {
+  position: relative;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  color: goldenrod;
+}
+
+@media (max-width: 720px) {
+  .title {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 52px;
+  }
+}

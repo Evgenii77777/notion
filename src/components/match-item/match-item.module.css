@@ -1,0 +1,15 @@
+.item {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 53px;
+}
+
+@media (max-width: 720px) {
+  .item {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+  }
+}

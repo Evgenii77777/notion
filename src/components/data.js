@@ -1,0 +1,72 @@
+const today = new Date();
+const now = today.toLocaleDateString("en-US");
+export const Matches = [
+  {
+    team1: "Manchester united",
+    team2: "Liverpool",
+    date: "now",
+    time: now,
+    coefficient: [{ win: 1.2, loose: 2.1, draw: 4.1 }],
+    id: "1",
+  },
+  {
+    team1: "Inter",
+    team2: "Parma",
+    date: "now",
+    time: now,
+    coefficient: [{ win: 1.1, loose: 3.4, draw: 5.1 }],
+    id: "2",
+  },
+  {
+    team1: "Manchester city",
+    team2: "Everton",
+    date: "now",
+    time: now,
+    coefficient: [{ win: 1.05, loose: 4.1, draw: 5.55 }],
+    id: "3",
+  },
+  {
+    team1: "Barcelona",
+    team2: "Real Madrid",
+    date: "now",
+    time: now,
+    coefficient: [{ win: 1.2, loose: 1.1, draw: 3.1 }],
+    id: "4",
+  },
+  {
+    team1: "Leeds united",
+    team2: "Arsenal",
+    date: "now",
+    time: now,
+    coefficient: [{ win: 4.2, loose: 1.1, draw: 4.7 }],
+    id: "5",
+  },
+  {
+    team1: "Manchester united",
+    team2: "Manchester city",
+    time: "16/01/2023",
+    coefficient: [{ win: 2.2, loose: 1.5, draw: 3.2 }],
+    id: "6",
+  },
+  {
+    team1: "Everton",
+    team2: "Liverpool",
+    time: "16/01/2023",
+    coefficient: [{ win: 3.1, loose: 2.1, draw: 4.3 }],
+    id: "7",
+  },
+  {
+    team1: "Newcasle",
+    team2: "Burnly",
+    time: "16/01/2023",
+    coefficient: [{ win: 1.2, loose: 2.1, draw: 4.1 }],
+    id: "8",
+  },
+  {
+    team1: "Foolham",
+    team2: "Chelse",
+    time: "16/01/2023",
+    coefficient: [{ win: 1.2, loose: 2.3, draw: 2.8 }],
+    id: "9",
+  },
+];

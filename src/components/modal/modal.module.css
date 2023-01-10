@@ -1,0 +1,22 @@
+.container {
+  position: relative;
+  display: flex;
+  min-height: 100px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: black;
+  background-color: whitesmoke;
+}
+
+.text {
+  font-size: 26px;
+  line-height: 36px;
+}
+
+.cross {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
